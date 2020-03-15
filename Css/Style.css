@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+    background-image: url('img/floresta.jpeg');
+    background-size: cover;
+}
+
+#corpo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 15px 25px gold;
+}
+
+#texto{
+    border: none;
+    border-radius: 15px;
+    background-color: dodgerblue;
+    padding: 15px;
+    outline: none;
+    width: 50%;
+}
+
+#texto:focus{
+    background-color: deepskyblue;
+    color: white;
+}
+
+#botaoCopiar{
+    color: white;
+    padding: 15px;
+    background-color: gray;
+    border: none;
+    border-radius: 15px;
+}
+
+#botaoCopiar:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
